@@ -9,9 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'home-bg-gradient':
+          "url('https://static.vecteezy.com/system/resources/thumbnails/002/961/909/small/light-pink-blue-gradient-blur-background-vector.jpg')",
+        'smart-banner-bg-gradient':
+          "url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg')",
+      },
+    },
+    container: {
+      center: true,
+      screens: {
+        sm: '600px',
+        md: '728px',
+        lg: '1172px',
+      },
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1rem',
       },
     },
   },
