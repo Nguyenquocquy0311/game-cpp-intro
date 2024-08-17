@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -12,13 +12,13 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="flex justify-center space-x-6 mb-6">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">
                         <FaFacebook size={24} />
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
-                        <FaTwitter size={24} />
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-700">
+                        <FaYoutube size={24} />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600">
                         <FaInstagram size={24} />
                     </a>
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">

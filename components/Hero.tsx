@@ -3,7 +3,7 @@ import { FaGithub, FaYoutube } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
     return (
-        <section id="home" className="relative bg-cover bg-home-bg-gradient bg-center h-screen text-gray-900 flex items-center justify-center">
+        <section id="home" className="relative bg-cover bg-home-bg-gradient bg-center h-[90vh] text-blue-900 flex items-center justify-center">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between h-full">
                 {/* Left side - Text */}
                 <div className="md:w-1/2 text-center md:text-left mx-4">
@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
                         href="https://github.com/your-github-link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block px-6 py-3 mx-2 bg-gray-600 hover:bg-gray-700 text-white font-bold rounded-lg transition duration-300">
+                        className="inline-block px-4 py-3 mx-2 bg-gray-700 hover:bg-gray-400 text-white font-bold rounded-lg transition duration-300">
                         <FaGithub size={24}/>
                     </a>
 
@@ -23,14 +23,14 @@ const Hero: React.FC = () => {
                         href="https://github.com/your-github-link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block px-6 py-3 mx-2 bg-red-500 hover:bg-red-700 text-white font-bold rounded-lg transition duration-300">
+                        className="inline-block px-4 py-3 mx-2 bg-red-500 hover:bg-red-700 text-white font-bold rounded-lg transition duration-300">
                         <FaYoutube size={24} />
                     </a>
                 </div>
 
                 {/* Right side - Image */}
                 <div className="md:w-1/2 mt-8 md:mt-0">
-                    <img src="/path-to-your-game-logo.png" alt="Conqueror's Journey Logo" className="w-full h-auto object-contain" />
+                    <img src="img/tải xuống.png" alt="Conqueror's Journey Logo" className="w-full h-auto object-contain" />
                 </div>
             </div>
         </section>

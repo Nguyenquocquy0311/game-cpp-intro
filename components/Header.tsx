@@ -39,7 +39,10 @@ const Header: React.FC = () => {
             Câu chuyện
           </a>
           <a href="#objects" className="hover:text-gray-400">
-            Đối tượng game
+            Thành phần
+          </a>
+          <a href="#how-to-play" className="hover:text-gray-400">
+            Cách chơi
           </a>
           <a href="#plan" className="hover:text-gray-400">
             Hướng nâng cấp

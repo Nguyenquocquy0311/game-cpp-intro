@@ -12,7 +12,7 @@ const config: Config = {
         'home-bg-gradient':
           "url('https://static.vecteezy.com/system/resources/thumbnails/002/961/909/small/light-pink-blue-gradient-blur-background-vector.jpg')",
         'smart-banner-bg-gradient':
-          "url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg')",
+          "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDsgSQhObWIcfktBf7oguEjl6JKY6Zd15Xyw&s')",
       },
     },
     container: {

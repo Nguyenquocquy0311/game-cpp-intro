@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes runPlayer {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: -1280px;
+    }
+}
+
+.sprite-player {
+    width: 240px !important;
+    background-image: url('../public/img/player.png');
+    animation: runPlayer 0.4s steps(5) infinite;
+    /* 1s: thời gian để hoàn thành một chu kỳ animation
+     steps(10): số lượng frame trong sprite sheet
+     infinite: lặp lại animation liên tục */
+}
+
+@keyframes runNative {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 1280px;
+    }
+}
+
+.sprite-enemy-run {
+    width: 296px !important;
+    background-image: url('../public/img/enemy-run.png');
+    animation: runNative 0.4s steps(4) infinite;
+    /* 1s: thời gian để hoàn thành một chu kỳ animation
+     steps(10): số lượng frame trong sprite sheet
+     infinite: lặp lại animation liên tục */
+}
+
+@keyframes runEnemy {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 1280px;
+    }
+}
+
+.sprite-enemy-fly {
+    width: 296px !important;
+    background-image: url('../public/img/enemy-fly.png');
+    animation: runEnemy 0.5s steps(4) infinite;
+    /* 1s: thời gian để hoàn thành một chu kỳ animation
+     steps(10): số lượng frame trong sprite sheet
+     infinite: lặp lại animation liên tục */
+}
+
+.sprite-player,
+.sprite-enemy-run,
+.sprite-enemy-fly {
+    height: 240px;
+    background-size: cover;
+}

@@ -9,6 +9,8 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import HowToPlay from "@/components/HowToPlay";
 import Footer from "@/components/Footer";
+import Download from "@/components/Download";
+import Source from "@/components/Source";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,20 +19,20 @@ export default function Home() {
     <div>
       <Head>
         <title>Conqueror's Journey</title>
-        <meta name="description" content="Giới thiệu về trò chơi Hành Trình Chinh Phục" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Giới thiệu về trò chơi" />
+        <link rel="icon" href="/img/logo.jfif" />
       </Head>
 
       <Header/>
 
-      <main className="overflow-hidden">
-        <Hero />
-        <Author />
-        <Story />
-        <GameObject />
-        <HowToPlay/>
-        <Plan />
-      </main>
+      <Hero />
+      <Author />
+      <Download/>
+      <Story />
+      <GameObject />
+      <HowToPlay/>
+      <Source />
+      <Plan />
 
       <Footer/>
     </div>
