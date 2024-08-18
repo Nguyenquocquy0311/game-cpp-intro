@@ -11,7 +11,7 @@ const Download: React.FC = () => {
         >
             <div className='bg-cover text-slate-700 bg-smart-banner-bg-gradient rounded-md flex justify-between items-center px-10 py-8'>
                 <div className='flex-1 text-blue-900'>
-                    <h2 className='font-bold text-xl mb-3'>Tải game Consqueror's Journey</h2>
+                    <h2 className='font-bold text-xl mb-3'>Tải game &quot;Conqueror&rsquo;s Journey&quot;</h2>
                     <p className='font-normal w-1/2'>Hãy thử ứng dụng của tôi để tận hưởng trải nghiệm người dùng tốt hơn và hiệu suất tuyệt vời</p>
                 </div>
                 <div className='flex flex-col'>
