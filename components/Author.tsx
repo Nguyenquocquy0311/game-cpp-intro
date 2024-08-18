@@ -22,7 +22,7 @@ const Author: React.FC = () => {
             Trò chơi này là bài tập lớn môn Lập trình nâng cao, được phát bởi <span className="text-blue-500 hover:underline">Nguyễn Quốc Quý</span>,
             một nhà phát triển phần mềm đam mê sáng tạo và thích những trải nghiệm chơi game độc đáo. Với nền tảng lập trình, phát triển
             phần mềm và niềm đam mê kể chuyện, mình mong muốn mang lại điều gì đó mới mẻ cho thế giới game với
-            <span className="italic"> "Conqueror's Journey"</span>.
+            <span className="italic"> &quot;Conqueror&rsquo;s Journey&quot;</span>.
           </p>
           <ul className='px-8'>
             <li className='text-[18px] font-bold text-blue-500'><a href='https://nguyenquocquy.vercel.app' target='_blank' className='flex items-center mb-2'><FaArrowAltCircleRight className="mr-2" />Profile</a></li>

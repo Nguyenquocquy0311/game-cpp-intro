@@ -6,9 +6,9 @@ const Footer = () => {
         <footer className="bg-gray-900 text-white py-10">
             <div className="container mx-auto text-center">
                 <div className="mb-6">
-                    <h3 className="text-2xl font-bold mb-2">Conqueror's Journey</h3>
+                    <h3 className="text-2xl font-bold mb-2">&quot;Conqueror&rsquo;s Journey&quot;</h3>
                     <p className="text-sm">
-                        © 2024 Conqueror's Journey. Tất cả các quyền được bảo lưu.
+                        © 2024 &quot;Conqueror&rsquo;s Journey&quot;. Tất cả các quyền được bảo lưu.
                     </p>
                 </div>
                 <div className="flex justify-center space-x-6 mb-6">

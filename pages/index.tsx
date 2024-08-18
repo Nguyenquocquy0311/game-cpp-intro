@@ -16,9 +16,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
-        <title>Conqueror's Journey</title>
+        <title>&quot;Conqueror&rsquo;s Journey&quot;</title>
         <meta name="description" content="Giới thiệu về trò chơi" />
         <link rel="icon" href="/img/logo.jfif" />
       </Head>
@@ -35,6 +35,6 @@ export default function Home() {
       <Plan />
 
       <Footer/>
-    </div>
+    </>
   );
 }

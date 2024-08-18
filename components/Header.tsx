@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <div className="text-2xl font-bold ">
           <a href="" className=" hover:text-gray-400">
-            Conqueror's Journey
+            &quot;Conqueror&rsquo;s Journey&quot;
           </a>
         </div>
 

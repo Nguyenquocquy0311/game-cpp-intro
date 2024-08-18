@@ -7,9 +7,9 @@ const Hero: React.FC = () => {
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between h-full">
                 {/* Left side - Text */}
                 <div className="md:w-1/2 text-center md:text-left mx-4">
-                    <h4 className="text-5xl font-bold mb-4">Conqueror's Journey</h4>
+                    <h4 className="text-5xl font-bold mb-4">&quot;Conqueror&rsquo;s Journey&quot;</h4>
                     <p className="text-[14px] mb-6">
-                        Một trò chơi phiêu lưu hành động đơn giản nhưng thú vị, được phát triển bằng thư viện SDL2. Trong game, người chơi sẽ vào vai một nhân vật chính, chạy qua các chướng ngại vật và thu thập các vật phẩm hỗ trợ để tiến xa hơn. Với đồ họa 2D mộc mạc và âm thanh sống động, trò chơi mang lại cảm giác thú vị và thách thức. Game có nhiều vật phẩm đặc biệt như nhảy cao, nhảy xa và bất tử,..giúp người chơi vượt qua các chướng ngại vật dễ dàng hơn. Bên cạnh đó, "Conqueror's Journey" còn có màn hình menu thân thiện, giúp người chơi dễ dàng bắt đầu hoặc thoát khỏi trò chơi. Hãy thử sức và xem bạn có thể đi được bao xa trong hành trình chinh phục này
+                        Một trò chơi phiêu lưu hành động đơn giản nhưng thú vị, được phát triển bằng thư viện SDL2. Trong game, người chơi sẽ vào vai một nhân vật chính, chạy qua các chướng ngại vật và thu thập các vật phẩm hỗ trợ để tiến xa hơn. Với đồ họa 2D mộc mạc và âm thanh sống động, trò chơi mang lại cảm giác thú vị và thách thức. Game có nhiều vật phẩm đặc biệt như nhảy cao, nhảy xa và bất tử,..giúp người chơi vượt qua các chướng ngại vật dễ dàng hơn. Bên cạnh đó, &quot;Conqueror&rsquo;s Journey&quot; còn có màn hình menu thân thiện, giúp người chơi dễ dàng bắt đầu hoặc thoát khỏi trò chơi. Hãy thử sức và xem bạn có thể đi được bao xa trong hành trình chinh phục này
                     </p>
                     <a
                         href="https://github.com/your-github-link"
