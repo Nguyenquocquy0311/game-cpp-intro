@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>&quot;Conqueror&rsquo;s Journey&quot;</title>
+        <title>Conqueror&rsquo;s Journey</title>
         <meta name="description" content="Giới thiệu về trò chơi" />
         <link rel="icon" href="/img/logo.jfif" />
       </Head>
