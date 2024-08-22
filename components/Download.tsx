@@ -12,10 +12,10 @@ const Download: React.FC = () => {
             <div className='bg-cover text-slate-700 bg-smart-banner-bg-gradient rounded-md flex justify-between items-center px-10 py-8'>
                 <div className='flex-1 text-blue-900'>
                     <h2 className='font-bold text-xl mb-3'>Tải game &quot;Conqueror&rsquo;s Journey&quot;</h2>
-                    <p className='font-normal w-1/2'>Hãy thử ứng dụng của tôi để tận hưởng trải nghiệm người dùng tốt hơn và hiệu suất tuyệt vời</p>
+                    <p className='font-normal w-1/2'>Hãy thử ứng dụng của tôi để tận hưởng và trải nghiệm chuyến phiêu lưu trên hòn đảo bí ẩn này</p>
                 </div>
                 <div className='flex flex-col'>
-                    <Link href='' target='_blank' className='px-5 py-2 my-2 flex bg-black text-white rounded-lg hover:bg-slate-800'>
+                    <Link href='https://github.com/Nguyenquocquy0311/game_cpp/releases/tag/v1.0.0' target='_blank' className='px-5 py-2 my-2 flex bg-black text-white rounded-lg hover:bg-slate-800'>
                         <FaGamepad size={24} className='mx-2'/>
                         Nocode
                     </Link>

@@ -9,7 +9,7 @@ const Plan: React.FC = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 100,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
