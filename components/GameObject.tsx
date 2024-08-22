@@ -8,9 +8,9 @@ const GameObject = () => {
       case "character":
         return (
           <div className="justify-center mt-4">
-            <p className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
+            <div className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
               Nhân vật chính của câu chuyện, chiến đấu vượt qua các vật cản và kẻ thù để khám phá bí mật của hòn đảo. <p className="px-4 text-base font-normal">Nhân vật chính mới vào game sẽ có 10 viên đạn, có trang bị sẵn súng và thể lực mới vào game là 200. Nhân vật có thể nhảy, bắn và né các vật cản và thổ dân. Mỗi lần nhảy hoặc chạy thì sẽ tốn thể lực.</p>
-            </p>
+            </div>
             <div className="flex space-x-4 justify-center">
               <div className="flex flex-col">
                 <div className="sprite-player" />
@@ -38,14 +38,14 @@ const GameObject = () => {
       case "powerup":
         return (
           <div className="justify-center mt-4">
-            <p className="w-3/4 mx-auto my-4 text-[20px] font-bold text-gray-700">
+            <div className="w-3/4 mx-auto my-4 text-[20px] font-bold text-gray-700">
               Thu thập thuốc sức mạnh như nhảy cao, khả năng bay, và bất tử để giúp bạn trong hành trình.
               <ul className="text-left font-normal text-[16px] mx-6">
                 <li><span className="font-bold">Nhảy cao: </span> Giúp nhân vật chính nhảy cao hơn bình thường, giúp nhân vật né được những vật cản cao hoặc những con quái bay thấp ở gần mình. Có tác dụng trong 5s.</li>
                 <li><span className="font-bold">Bay: </span>Giúp nhân vật chính có thể di chuyển được ở trên không trong 1 khoảng thời gian. Điều này giúp người chơi có thể thu thập được những vật phẩm ở trên cao cũng như né được những cuộc tấn công ở dưới mặt đất của thổ dân. Có tác dụng trong 10s.</li>
                 <li><span className="font-bold">Bất tử: </span>Vật phẩm giúp nhân vật chính chịu được những cuộc tấn công của quái vật hay thổ dân mà không hề bị thương tích gì. Ngoài ra nó cũng giúp nhân vật đi xuyên qua vật cản. Có tác dụng trong 10s.</li>
               </ul>
-            </p>
+            </div>
             <div className="flex space-x-4 justify-center">
               <div className="flex flex-col">
                 <img
@@ -77,15 +77,15 @@ const GameObject = () => {
       case "items":
         return (
           <div className="justify-center mt-4">
-            <p className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
+            <div className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
               Thu thập các vật như rìu, thực phẩm, bản đồ và balo để giúp bạn có thể sinh tồn và tiếp tục hành trình.
-              <ul className="text-left font-normal text-[16px] mx-6">
+              <ul className="text-left font-normal text-[16px] mx-6 list-disc pl-6">
                 <li><span className="font-bold">Rìu: </span> Giúp nhân vật chính phá hủy vật cản trên đường đi.</li>
                 <li><span className="font-bold">Thực phẩm: </span>Giúp nhân vật chính hồi phụcthể lực.</li>
                 <li><span className="font-bold">Bản đồ: </span>Giúp nhân vật chính tăng thêm điểm số.</li>
                 <li><span className="font-bold">Balo: </span>Vật phẩm tiếp thêm đạn cho nhân vật chính.</li>
               </ul>
-            </p>
+            </div>
             <div className="flex space-x-4 justify-center">
               <div className="flex flex-col">
                 <img
@@ -125,12 +125,12 @@ const GameObject = () => {
       case "enemy":
         return (
           <div className="justify-center mt-4">
-            <p className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
+            <div className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
               Kẻ thù là những thổ dân thù địch và các quái vật nguy hiểm trên hòn đảo. Họ sẽ làm mọi cách để ngăn cản bạn khám phá bí mật của hòn đảo và tìm cách sinh tồn.
               <p className="px-4 text-base font-normal">
                 Các thổ dân và quái vật trên đảo có những chiến thuật khác nhau để tấn công bạn. Thổ dân sẽ tấn công từ mặt đất, còn quái vật sẽ xuất hiện từ trên không, làm tăng độ khó và thử thách cho người chơi. Bạn cần vận dụng kỹ năng chiến đấu và phản xạ nhanh nhạy để đánh bại chúng.
               </p>
-            </p>
+            </div>
             <div className="flex space-x-4 justify-center">
               <div className="flex flex-col">
                 <div className="sprite-enemy-run" />
@@ -160,6 +160,36 @@ const GameObject = () => {
                   className="h-60 object-cover rounded-lg"
                 />
                 <p className="font-normal mt-2">Đá Tảng</p>
+              </div>
+            </div>
+          </div>
+        );
+        case "bullet":
+        return (
+          <div className="justify-center mt-4">
+            <div className="w-3/4 mx-auto my-4 text-lg font-bold text-gray-800">
+              Đạn là một phần quan trọng giúp nhân vật chính có thể tấn công và tiêu diệt kẻ thù. Bạn cần thu thập đạn trên đường đi để duy trì khả năng chiến đấu của mình.
+              <ul className="text-left font-normal text-[16px] mx-6 list-disc pl-6">
+                <li><span className="font-bold">Số lượng đạn: </span> Nhân vật chính bắt đầu với 10 viên đạn, bạn có thể thu thập thêm trong hành trình.</li>
+                <li><span className="font-bold">Tăng số lượng đạn: </span> Sử dụng balo để tăng số lượng đạn có thể mang theo.</li>
+              </ul>
+            </div>
+            <div className="flex space-x-4 justify-center">
+              <div className="flex flex-col">
+                <img
+                  src="img/bullet2.png"
+                  alt="Đạn"
+                  className="h-60 object-cover rounded-lg"
+                />
+                <p className="font-normal mt-2">Đạn</p>
+              </div>
+              <div className="flex flex-col">
+                <img
+                  src="img/shoot.jpeg"
+                  alt="Nhân Vật Chính"
+                  className="h-60 object-cover rounded-lg"
+                />
+                <p className="font-normal mt-2">Nhân vật đang bắn</p>
               </div>
             </div>
           </div>
@@ -200,9 +230,15 @@ const GameObject = () => {
           </button>
           <button
             onClick={() => setSelectedCategory("obstacle")}
-            className={`px-4 py-2 rounded-lg ${selectedCategory === "obstacle" ? "bg-black text-white" : "bg-gray-200"}`}
+            className={`px-4 py-2 mr-4 rounded-lg ${selectedCategory === "obstacle" ? "bg-black text-white" : "bg-gray-200"}`}
           >
             Vật Cản
+          </button>
+          <button
+            onClick={() => setSelectedCategory("bullet")}
+            className={`px-4 py-2 rounded-lg ${selectedCategory === "bullet" ? "bg-black text-white" : "bg-gray-200"}`}
+          >
+            Đạn
           </button>
         </div>
         {renderContent()}

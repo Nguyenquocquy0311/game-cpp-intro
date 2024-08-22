@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'home-bg-gradient':
-          "url('https://static.vecteezy.com/system/resources/thumbnails/002/961/909/small/light-pink-blue-gradient-blur-background-vector.jpg')",
+          "url('https://wallpapercave.com/wp/wp4465057.jpg')",
         'smart-banner-bg-gradient':
           "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDsgSQhObWIcfktBf7oguEjl6JKY6Zd15Xyw&s')",
       },

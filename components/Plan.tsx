@@ -24,22 +24,22 @@ const Plan: React.FC = () => {
     {
       title: "Tối ưu hóa game hơn",
       content: "Tối ưu hóa game hơn giúp cải thiện trải nghiệm người chơi và giảm thiểu các lỗi có thể gặp phải.",
-      image: "img/run.jpeg",
+      image: "https://cdn-icons-png.flaticon.com/512/3343/3343360.png",
     },
     {
       title: "Tạo thêm nhiều màn chơi nữa",
       content: "Thêm nhiều màn chơi mới để người chơi có thêm trải nghiệm mới và thử thách hơn.",
-      image: "img/shoot.jpeg",
+      image: "https://files.oaiusercontent.com/file-GWLDRL9BpGFj0OhI1VHfYaxh?se=2024-08-22T05%3A35%3A17Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D533ca45a-7053-4826-8d89-acc9cf90dc39.webp&sig=zTesfKaHPOa4pWVah5fFa7z87GZqhIBI0mK%2BH1jHAf4%3D",
     },
     {
       title: "Thêm nhiều item giúp có game hấp dẫn hơn",
       content: "Các item mới sẽ làm cho trò chơi thêm phần thú vị và cung cấp cho người chơi nhiều tùy chọn chiến thuật.",
-      image: "img/run.jpeg",
+      image: "https://cdn1.epicgames.com/ue/product/Screenshot/galleryUE3-1920x1080-a9eaf0a3125d17d14ba49c204a17b623.png?resize=1&w=1920",
     },
     {
       title: "Có thể lưu lại lịch sử các lần chơi",
       content: "Tính năng lưu lại lịch sử chơi giúp người chơi có thể theo dõi tiến trình của mình.",
-      image: "img/shoot.jpeg",
+      image: "https://files.oaiusercontent.com/file-wkHITeTTAdBB2KgXo7saG4VO?se=2024-08-22T05%3A28%3A47Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dad3ee62b-3ae6-4474-a4eb-3a7a33460b62.webp&sig=XUmMP9Iit9QTM3KWuBjkkPbGyH%2BmdhCRAlDukyARMQ0%3D",
     }
   ];
 
@@ -55,23 +55,23 @@ const Plan: React.FC = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Hướng Phát Triển</h2>
         <p className="text-lg leading-relaxed w-3/4 mx-auto mb-12">
-          Trong tương lai, chúng tôi dự định phát triển thêm các tính năng mới như chế độ chơi nhiều người, nâng cấp đồ họa, và thêm nhiều câu chuyện phụ để mở rộng thế giới của Game. Hãy cùng chờ đón những cập nhật tiếp theo!
+          Trong tương lai, tôi dự định phát triển thêm các tính năng mới như chế độ chơi nhiều người, nâng cấp đồ họa, và thêm nhiều câu chuyện phụ để mở rộng thế giới của Game. Hãy cùng chờ đón những cập nhật tiếp theo!
         </p>
 
         <div className="flex items-start">
-          <ul className="text-left text-[20px] font-bold w-1/2 ml-10">
+          <ul className="text-left text-[20px] font-bold w-1/2 ml-1">
             {planItems.map((item, index) => (
-              <li key={index} className={`mb-2 px-4 py-3 cursor-pointer ${currentSlide === index ? 'shadow-lg rounded-md' : ''}`} onClick={() => scrollToSlide(index)}>
+              <li key={index} className={`w-[480px] mb-2 px-4 py-3 cursor-pointer ${currentSlide === index ? 'shadow-lg rounded-md' : ''}`} onClick={() => scrollToSlide(index)}>
                 {item.title}
                 <p className="text-[14px] font-normal mt-2 w-3/4">{item.content}</p>
               </li>
             ))}
           </ul>
-          <div className="w-1/2 pl-8">
+          <div className="w-1/2">
             <Slider {...settings} ref={(slider: any) => (sliderRef = slider)}>
               {planItems.map((item, index) => (
                 <div key={index} className="flex justify-center items-center h-full">
-                  <img src={item.image} alt={item.title} className="rounded-lg shadow-lg h-96 w-[520px]" />
+                  <img src={item.image} alt={item.title} className="rounded-lg shadow-lg h-96 w-[576px]" />
                 </div>
               ))}
             </Slider>

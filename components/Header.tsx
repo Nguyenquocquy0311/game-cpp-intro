@@ -20,14 +20,19 @@ const Header: React.FC = () => {
     };
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <header className={classNames("fixed bg-cover text-gray-900 h-20 w-full px-10 z-50", isAtTop ? 'bg-home-bg-gradient' : 'bg-white shadow-md')}>
       <div className="mx-auto flex justify-between items-center h-full">
         {/* Logo */}
-        <div className="text-2xl font-bold ">
-          <a href="" className=" hover:text-gray-400">
+        <div className="text-2xl font-bold cursor-pointer" onClick={scrollToTop}>
+          {/* <a href="" className=" hover:text-gray-400">
             Conqueror&rsquo;s Journey
-          </a>
+          </a> */}
+          <img src='img/conquerors_journey_logo.png' width={90} height={90}/>
         </div>
 
         {/* Navigation */}
