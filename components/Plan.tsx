@@ -29,7 +29,7 @@ const Plan: React.FC = () => {
     {
       title: "Tạo thêm nhiều màn chơi nữa",
       content: "Thêm nhiều màn chơi mới để người chơi có thêm trải nghiệm mới và thử thách hơn.",
-      image: "https://files.oaiusercontent.com/file-GWLDRL9BpGFj0OhI1VHfYaxh?se=2024-08-22T05%3A35%3A17Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D533ca45a-7053-4826-8d89-acc9cf90dc39.webp&sig=zTesfKaHPOa4pWVah5fFa7z87GZqhIBI0mK%2BH1jHAf4%3D",
+      image: "img/levels.png",
     },
     {
       title: "Thêm nhiều item giúp có game hấp dẫn hơn",
@@ -39,7 +39,7 @@ const Plan: React.FC = () => {
     {
       title: "Có thể lưu lại lịch sử các lần chơi",
       content: "Tính năng lưu lại lịch sử chơi giúp người chơi có thể theo dõi tiến trình của mình.",
-      image: "https://files.oaiusercontent.com/file-wkHITeTTAdBB2KgXo7saG4VO?se=2024-08-22T05%3A28%3A47Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dad3ee62b-3ae6-4474-a4eb-3a7a33460b62.webp&sig=XUmMP9Iit9QTM3KWuBjkkPbGyH%2BmdhCRAlDukyARMQ0%3D",
+      image: "img/history.png",
     }
   ];
 
